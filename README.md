@@ -7,7 +7,9 @@ Filter Eloquent models using URL query parameters or HTTP `QUERY` request bodies
 
 ## Installation
 
-Requires PHP 8.2+ and Laravel 11, 12 or 13.
+Requires PHP 8.2+ and Laravel 12 or 13. Laravel 13 requires PHP 8.3+.
+
+The package's 2.x Composer constraints still allow Laravel 11, but Laravel 11 has reached [end of life](https://laravel.com/docs/13.x/releases#support-policy) and is no longer tested in CI. We recommend upgrading to Laravel 12 or 13.
 
 ```sh
 composer require goodcat/laravel-eloquent-querystring

@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Changed
+
+- Stops testing end-of-life Laravel 11 in CI without changing Composer constraints.
+
 ## v2.2.1
 
 Released on _**2026-10-13**_.
